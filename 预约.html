@@ -1,0 +1,44 @@
+<!-- 预约表单 -->
+<form>
+    <!-- 姓名字段 -->
+    <div class="form-group">
+      <label for="name">姓名：</label>
+      <input type="text" name="name" id="name" class="form-control">
+    </div>
+    <!-- 电话字段 -->
+    <div class="form-group">
+      <label for="phone">电话：</label>
+      <input type="text" name="phone" id="phone" class="form-control">
+    </div>
+    <!-- 预约日期字段 -->
+    <div class="form-group">
+      <label for="date">预约日期：</label>
+      <input type="date" name="date" id="date" class="form-control">
+    </div>
+    <!-- 预约时间字段 --><div class="form-group">
+    <label for="time">预约时间：</label>
+    <select name="time" id="time" class="form-control">
+      <option value="morning">上午</option>
+      <option value="afternoon">下午</option>
+      <option value="evening">晚上</option>
+    </select>
+  </div>
+  <!-- 预约项目字段 -->
+  <div class="form-group">
+    <label for="project">预约项目：</label>
+    <div>
+      <input type="radio" name="project" id="project-1" value="1">
+      <label for="project-1">项目1</label>
+    </div>
+    <div>
+      <input type="radio" name="project" id="project-2" value="2">
+      <label for="project-2">项目2</label>
+    </div>
+    <div>
+      <input type="radio" name="project" id="project-3" value="3">
+      <label for="project-3">项目3</label>
+    </div>
+  </div>
+  <!-- 提交按钮 -->
+  <button type="submit" class="btn btn-primary">提交预约</button>
+</form>
